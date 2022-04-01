@@ -1,0 +1,16 @@
+<div class="form_container">
+  <div class="heroes-menu">
+    <input
+      [(ngModel)]="userForm.email"
+      class="search-box"
+      placeholder="Enter your Email"
+    />
+    <input
+      [(ngModel)]="userForm.password"
+      class="search-box"
+      placeholder="Enter your Password"
+      type="password"
+    />
+    <button (click)="submit()" class="submit_btn">Submit</button>
+  </div>
+</div>
